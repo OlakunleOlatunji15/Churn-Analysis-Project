@@ -43,17 +43,38 @@ By targeting these areas, the bank can work toward reducing churn and improving 
 
 ### 5. Measure Creation
 - **Total Customers:**  
-  `Customers = COUNT('Customer Data'[Customer ID])`
+  Customers = COUNT('Customer Data'[Customer ID])
+  
+   ![image](https://github.com/user-attachments/assets/672cdbb5-13f7-4e0e-bbea-3d9216b13700)
+
 - **Churned Customers:**  
   `Customers Lost = CALCULATE(COUNT('Customer Data'[Churn Status]), 'Customer Data'[Churn Status] = "Churned")`
+
+   ![image](https://github.com/user-attachments/assets/a018a10d-5b0f-41d0-b33f-052fb6b50614)
+
 - **Churn Rate:**  
   `Churn Rate = 'Customer Data'[Customers Lost] / 'Customer Data'[Customers]`
 
+   ![image](https://github.com/user-attachments/assets/94299efe-e62b-4ac7-aa47-53397ba307e0)
+
+
 ### 6. Visualization Design
 - **Card visuals**: Total customers and churn rate.
+  
+  ![image](https://github.com/user-attachments/assets/12474c12-f56d-4b13-b6d8-ab32f9e8ed14)
+
 - **Gauge visual**: Compare churn rate against the target.
+
+  ![image](https://github.com/user-attachments/assets/0158b7a1-f2f8-4b25-a1e0-92bba980c71c)
+
 - **Donut charts**: Customer distributions by gender, activity status, credit card ownership, country, and products.
+
+ ![image](https://github.com/user-attachments/assets/d8fb1713-c5a4-4bc5-9b65-6b76a544aad9)
+
 - **Area charts**: Customer and churn rates by age groups, credit scores, and account balances.
+
+ ![image](https://github.com/user-attachments/assets/ab9dee42-169b-4e40-a1f7-de61d0d87af3)
+
 
 ### 7. Publishing
 - Uploaded the report to **Power BI Service** for sharing and collaboration.
@@ -110,3 +131,72 @@ By targeting these areas, the bank can work toward reducing churn and improving 
 
 ### Report (Power BI Desktop)
 ![Report Snapshot](# "Insert report snapshot link here")
+
+## Insights  
+  
+
+#### Customer Overview  
+- The bank serves **10,000 customers**, with:  
+  - **54.57% male** and **45.43% female** customers.  
+  - **51.5% active** and **48.5% inactive** customers.  
+  - **70.55% own credit cards**, while **29.45% do not**.  
+
+#### Country Distribution  
+- **France:** 50.14% of total customers, the largest share.  
+- **Spain:** 24.77% of total customers, the smallest share.  
+
+#### Product Preferences  
+- **Product 1** is the most popular across all demographics.  
+
+---
+
+### Churn Analysis  
+
+#### Overall Churn Rate  
+- The churn rate is **20.4%**, exceeding the target of **15%**.  
+- **Female customers** have a higher churn rate (**25.1%**) compared to males (**16.5%**).  
+
+#### Churn by Age Group  
+- Customers aged **51-60** have the highest churn rate at **56.2%**, indicating significant dissatisfaction.  
+- Customers aged **20 and below** have the lowest churn rate at **5.6%**.  
+
+#### Churn by Credit Score  
+- **Credit scores below 400**: **100% churn rate**, suggesting critical retention issues.  
+- **Credit scores 601-700 and 801+**: Lowest churn rates (~**19.7%**).  
+
+#### Churn by Account Balance  
+- Accounts with balances over **200k** have the highest churn rate at **55.9%**.  
+- Accounts between **10k-100k** have a churn rate of **20.5%**.  
+
+#### Product Analysis  
+- **Product 2** has the lowest churn rate at **7.6%**, indicating higher satisfaction with this product.  
+
+---
+
+## Recommendations  
+
+### 1. Improve Retention in High-Churn Segments  
+- **Age 51-60**: Implement tailored loyalty programs and products to meet the needs of this group.  
+- **Low Credit Scores**: Provide education on credit improvement and retention offers for customers with low scores.  
+
+### 2. Focus on High-Balance Customers  
+- Investigate why customers with balances over **200k** are churning.  
+- Offer premium services, relationship managers, or rewards to retain these high-value customers.  
+
+### 3. Address Gender-Specific Churn  
+- **Female Customers**: Design personalized offers, better service channels, and women-focused products to address the higher churn rate among female customers.  
+
+### 4. Leverage Product Insights  
+- **Product 2**: Analyze the features of Product 2 that lead to lower churn rates and replicate these qualities in other products.  
+- **High-Churn Products**: Reassess the value proposition of products with higher churn rates and adjust accordingly.  
+
+### 5. Competitive Benchmarking  
+- Study competitors’ offerings in **France** and **Germany** to stay competitive and meet or exceed their features.  
+
+### 6. Churn Prediction and Proactive Engagement  
+- Implement predictive analytics to identify customers at risk of churning and engage them proactively with targeted communications, offers, and retention campaigns.  
+
+### 7. Educational Campaigns for Low-Balance and Low-Credit Customers  
+- Offer financial literacy programs for customers with low credit scores or account balances to help improve their financial standing and loyalty.  
+
+By implementing these recommendations, the bank can effectively reduce its churn rate, meet its **15% target**, and enhance overall customer satisfaction and retention.
