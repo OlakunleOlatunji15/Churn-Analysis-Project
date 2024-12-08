@@ -106,7 +106,7 @@ By targeting these areas, the bank can work toward reducing churn and improving 
 ## Snapshots
 
 ### Dashboard (Power BI Service)
-![Dashboard Snapshot](# "Insert dashboard snapshot link here")
+(# "Insert dashboard snapshot link here")
 
 ### Report (Power BI Desktop)
 ![Report Snapshot](# "Insert report snapshot link here")
