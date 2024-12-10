@@ -1,7 +1,7 @@
 # Churn-Analysis-Project
 # Bank-Churn-Analysis
 
-**Dashboard Link:** [Add Power BI dashboard link here]
+**Dashboard Link:** https://app.powerbi.com/links/Hb3f4rWuzm?ctid=a1d0d612-1d52-4d5b-a047-01a1056ce8c3&pbi_source=linkShare
 
 ---
 
