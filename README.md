@@ -45,7 +45,8 @@ By targeting these areas, the bank can work toward reducing churn and improving 
 - **Total Customers:**  
   Customers = COUNT('Customer Data'[Customer ID])
   
-   ![image](https://github.com/user-attachments/assets/672cdbb5-13f7-4e0e-bbea-3d9216b13700)
+   ![image](https://github.com/user-attachments/assets/166cf678-7761-4912-8c1e-e7ffbbf6e037)
+
 
 - **Churned Customers:**  
   `Customers Lost = CALCULATE(COUNT('Customer Data'[Churn Status]), 'Customer Data'[Churn Status] = "Churned")`
